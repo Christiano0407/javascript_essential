@@ -1,0 +1,20 @@
+{
+  "name": "pro_javascript",
+  "version": "1.0.0",
+  "description": "Course with Platzi of Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/javascript_essential.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/javascript_essential/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/javascript_essential#readme"
+}

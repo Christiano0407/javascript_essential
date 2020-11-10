@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+:root {
+    --color-base: #fff;
+    --color-base-2: #e3e3e3;
+    --color-black:#000000;
+    --color-gradient-uno: #384679;
+    --color-gradient-two: #283153;
+}
+body {
+    font-size: 1.6rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
