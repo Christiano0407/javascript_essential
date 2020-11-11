@@ -55,8 +55,8 @@ numero(); */
 /* let numi = 10;
 let num2 = 5;
 console.log(numi == num2); */
-let num1 = 10;
-let num2 = 5;
+/* let num1 = 10;
+let num2 = 5; */
 //&&
 /* if(num1 === 10 && num2 === 5) {
     console.log("Son iguales");
@@ -75,3 +75,50 @@ let num2 = 5;
 }else {
     console.log("No lo son");
 } */
+let nombre1 = "Luisa";
+let nombre2 = "Alma";
+let nombre3 = "Chris"
+/* if(nombre2 === !"Luisa") {
+   console.log("No es ella")
+}else if (nombre2 === "Alma" && nombre1 === "Luisa") {
+   console.log("Ellas sí son.")
+}else {
+    console.log("Lo siento...no es ninguna.")
+} */
+//2
+/* if(nombre2 === "Luisa") {
+    console.log("No es ella")
+ }else if (nombre2 === "Alma") {
+    console.log("Ella sí es.")
+ }else {
+     console.log("Lo siento...no es ninguna.")
+ } */
+ //RETO1
+ /* let amigos = {
+     roberto: 1.5,
+     pedro: 1.7,
+     cofia: 3,
+ } */
+
+//let amigos = [{roberto:1.5}, {pedro:1.7}, {cofia:3}];
+
+/* function dinero() {
+    let dineroCofia = 3;
+    let money = prompt("Cuánto dinero tines");
+
+    if(dineroCofia === money){
+        console.log("Tines suficiente dinero para comprarte helado");
+    }else if(money >= 1 && money <= 1.6) {
+        console.log("Un heladix");
+    }else if(money >= 1.7 && money <= 1.8) {
+        console.log("Un heladovich");
+    }else if(money >= 1.8 && money <= 2.9) {
+        console.log("Un helardo");
+    }else if(money >= 2.9 && money <= 4) {
+        console.log("Un helado de confite y Pote")
+    }else {
+        console.log("No te alcanza para nada...bueno, sólo el de agua");
+    }
+}
+dinero(); */
+
