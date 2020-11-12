@@ -77,3 +77,36 @@ console.log(wordBlank("Chris", "Canadá", "Blue"));
 new wordBlank(console.log("Alma", "México", "Red")); */
 
 //ARRAY []
+/* let array = ["John", 23];
+let myArray = [["Luisa", 1], ["Natasha", 25]];
+console.log(myArray);
+
+let data = [50, 60, 70];
+let myData = data[0];
+console.log(myData);
+ */
+/* let personas = [ 
+    {name:"Nayeli",
+     pais: "Canadá"},
+    {name:"Luis", pais: "Italia"},
+]
+console.log(personas); */
+//3 Remplazar datos
+/* let ourArray = [18, 20, 25];
+ourArray[1] = 60;
+console.log(ourArray) */
+//4 Dimensional
+/* let myArray = [[1,2,3], [4,5,6], [7,8,9], [[10, 11, 12], 13,14]];
+let myData = myArray[2][1];
+console.log(myData); */
+//=8
+/* MATRIZ */
+//Proto = prototipe(agregan o quitan).
+//.push() = Agregar al final de la matriz.
+//.pop() = pODEMOS ELIMINAR UN ELEMENTO DE UNA MATRIZ.
+//.shift() = Eimina el primer elemento de la matriz, en lugar del último.
+//.unshift() = Agrega un elemento al comienzo de la matriz.
+/* let ourArray = ["Alma", "A", "Perro"];
+ ourArray.shift();
+ ourArray.unshift("Luisa");
+console.log(ourArray); */
