@@ -110,3 +110,22 @@ console.log(myData); */
  ourArray.shift();
  ourArray.unshift("Luisa");
 console.log(ourArray); */
+
+//Ejemplo de una Matriz en ShopingList:
+/* let myList = [["cereal", 3], ["Milk", 2], ["bananas", 3], ["Juice", 2], ["Eggs", 12]];
+console.log(myList); */
+
+/* FUNCTIONS */
+/* ourFunction = () => {
+    console.log("Hola Mundo");
+}
+ourFunction(); */
+//2)
+//Parámetros:
+/* ourFunction = (a, b) => {
+   console.log(`Hola ${a}, mi ${b}`);
+}
+ourFunction("Maria", "Money"); */
+//3)
+//Global Scope and Functions (var, let, const).
+
