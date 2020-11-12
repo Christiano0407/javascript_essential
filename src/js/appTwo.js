@@ -33,7 +33,7 @@ let c = 2;
 c *= 2;
 console.log(c);*/
 
-//Variable w/ string (+ +, ${})
+//Variable w/ string (+ + = Concatenar texto, ${})
 /* let firstName = "Alan";
 console.log(`Hola, yo soy ${firstName}`);
 let divNumber = {
@@ -43,3 +43,16 @@ let divNumber = {
 }
 console.log(`hOLA!, yo soy ${divNumber.name}, y tengo ${divNumber.age}. Soy de ${divNumber.country}`);
  */
+//Concatenar texto
+/* let myStr = "First sentence ";
+myStr += "I´m second sentence";
+console.log(myStr); */
+//método = .lenght = Lee los caracteres o datos que tiene.
+/* let firstData = 0;
+let firstName = "Alan";
+firstData = firstName.length;
+console.log(firstData); */
+//2
+/* firstName = "Alana"; */
+/* console.log(firstName[1]); */
+/* console.log(firstName.length); */
