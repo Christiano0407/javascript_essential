@@ -56,3 +56,24 @@ console.log(firstData); */
 /* firstName = "Alana"; */
 /* console.log(firstName[1]); */
 /* console.log(firstName.length); */
+/* function names() {
+    let name1 = "samantha";
+
+    if(name1[0] === "s") {
+        console.log("Tu nombre comienza con una s");
+    }else {
+        console.log("Nos equivocamos");
+    }
+    console.log(name1.length); 
+}
+names(); */
+//3
+/* function wordBlank(myName, myCountry, myColor) {
+   let result = "";
+    result += "Hola " + myName + " " + myCountry + " " + myColor;
+   return result;
+}
+console.log(wordBlank("Chris", "Canadá", "Blue"));
+new wordBlank(console.log("Alma", "México", "Red")); */
+
+//ARRAY []
