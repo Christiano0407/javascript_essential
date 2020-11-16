@@ -161,6 +161,7 @@ processArg = (num) => {
 console.log(processed - processArg(10)); */
 
 //JSON y Array.
+//JSON.stringify() = convierte un objeto a valor de javascript en una cadena de texto en JSON.
 /* nextLine = (arr, item) => {
 arr.push(item);
 return arr.shift();
@@ -170,3 +171,12 @@ var testArr = [1, 2, 3, 4, 5];
 console.log("Before:" + JSON.stringify(testArr));
 console.log(nextLine(testArr, 8));
 console.log("After: " + JSON.stringify(testArr)); */
+
+/* let text = [1,2,3,4,5];
+text.shift();
+text.push(9);
+console.log("Text:" + JSON.stringify(text) ); */
+
+//Booleano:
+
+
