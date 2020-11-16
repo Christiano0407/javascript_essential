@@ -17,3 +17,16 @@ valNum(10); */
     }
 }
 numVal(15); */
+/* numeros = () => {
+let num = 10;
+  for(i = 0; i <= num; i++){
+     if(num === 10) {
+         console.log("Yes")
+     }else {
+         console.log("No")
+     }
+  }
+  console.log(i);
+}
+numeros(); */
+
