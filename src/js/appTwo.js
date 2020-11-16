@@ -129,3 +129,22 @@ ourFunction("Maria", "Money"); */
 //3)
 //Global Scope and Functions (var, let, const).
 
+/* var myGlobal = 10; 
+
+fun1 = () => {
+    oopsGlobal = 5;
+}
+
+fun2 = () => {
+    let output = "";
+    if(typeof myGlobal != "undefined") {
+      output += "myGlobal:" + myGlobal;
+    }else if(typeof oopsGlobal != "undefined"){
+      output += "oopsGlobal:" + oopsGlobal;
+    }else {
+    console.log("No funcionó nada");
+    }
+    console.log(output);
+}
+fun1();
+fun2(); */
