@@ -148,3 +148,25 @@ fun2 = () => {
 }
 fun1();
 fun2(); */
+
+//Return: Retorna una función.
+/* miNum = (num) => {
+    return num -7;
+}
+console.log(miNum(10)); */
+/* var processed = 0;
+processArg = (num) => {
+    return (num + 5) / 5;
+}
+console.log(processed - processArg(10)); */
+
+//JSON y Array.
+/* nextLine = (arr, item) => {
+arr.push(item);
+return arr.shift();
+}
+var testArr = [1, 2, 3, 4, 5];
+
+console.log("Before:" + JSON.stringify(testArr));
+console.log(nextLine(testArr, 8));
+console.log("After: " + JSON.stringify(testArr)); */
