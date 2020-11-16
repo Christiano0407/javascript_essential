@@ -177,6 +177,46 @@ text.shift();
 text.push(9);
 console.log("Text:" + JSON.stringify(text) ); */
 
-//Booleano:
+//Booleano: TRUE OR FALSE 
+//Condicionales (if):
 
+/* ourTrue = (isTrue) => {
+    if(isTrue) {
+     return "Yes I´m true";
+    }else {
+        console.log("False!")
+    }
+}
+console.log(ourTrue(true)); */
+//Operadores de comparación (==, === etc).
+/* testEqual = (val) => {
+if(val === 12) {
+    return "Equal";
+}else {
+    return "Not Equal";
+}
+} 
+console.log(testEqual(12)); */
+/*  value = (a, b) => {
+     if(a === b) {
+         console.log("Vaya!");
+     }else if(a != b ){
+         console.log("No lo son")
+     }else {
+         console.log("Demonios!");
+     }
+ }
+value(5, 10);  */
+
+/* num = () => {
+ let = 5;
+ for (i = 0; i = num; i++){
+    if(num === 5) {
+        console.log("Yes")
+    }else {
+        console.log("No!");
+    }
+ }
+}
+num() */
 
