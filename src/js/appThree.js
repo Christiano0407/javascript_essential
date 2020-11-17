@@ -100,4 +100,58 @@ golfScore(5,5); */
 }
  sequentialSize(1); */
  //Puedes cambiar una condicional (if) por un switch.
- 
+ //Function and boolean: 1)
+ /* isLess = (a, b) => {
+ if (a < b) {
+     return true;
+ }else {
+     return false;
+ }
+ }
+ console.log(isLess(10, 15)); */
+ //Math 1)
+ //Math.round() = Retorna el valor de un número redondeando al entero más cercano.
+ //Math.sqrt() = Retorna la Raíz cuadrada de un número.
+/*  abTest = (a, b) => {
+    if (a < 0 || b < 0) {
+        console.log("Never");
+    }
+
+    console.log(Math.round(Math.sqrt(a) + Math.sqrt(b), 2));
+ }
+ abTest(4, 2); */
+
+//Card Count:
+/* cc = (card) => {
+let count = 0;
+let holdbest = `Hold`;
+    switch(card) {
+        case 2:
+        case 3:
+        case 4:
+        case 5: 
+        case 6: 
+        count ++;
+        break;
+        case 7:
+        case 8:
+        case 9:
+        count = "Awesome";
+        break;
+        case "10":
+        case "J":
+        case "Q":
+        case "K":
+        case "A":
+        count--;
+        break;
+        default:
+        count = "Never and never";
+    }
+    if( count > 0) {
+        holdbest = `Bet`
+    }
+
+    console.log(count + " " + holdbest);
+}
+cc(4); */
