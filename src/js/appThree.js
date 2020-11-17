@@ -32,7 +32,7 @@ numeros(); */
 
 /* alert("Hola"); */
 //Golf Game :
-let golf = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"];
+/* let golf = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"];
 
 golfScore = (par, strokes) => {
    if(strokes === 1) {
@@ -51,4 +51,53 @@ golfScore = (par, strokes) => {
     console.log("Never and never game of Golf!")
    }
 }
-golfScore();
+golfScore(5,5); */
+//Switch:
+/*  caseInSwitch = (val) => {
+ let answer = "";
+
+ switch(val){
+    case 1: 
+      answer = "Alpha";
+      break;
+    case 2:
+      answer = "Beta";
+      break;
+    case 3:
+      answer = "Gamma";
+      break;
+    case 4:
+      answer = "Delta";
+      break;
+    default:
+        // console.log("Nothing");
+      answer = "Nothing"
+      break;
+ }
+
+ console.log(answer);
+ }
+ caseInSwitch(1);  */
+ //2)
+/*  sequentialSize = (val) => {
+  let answer = "";
+
+  switch(val) {
+   case 1:
+   case 2:
+   case 3:
+       answer = "Love";
+   break;
+   case 4:
+   case 5:
+   case 6:
+       answer = "Beautiful";
+   break;
+   default:
+       answer = "Never loved of you!"    
+  }
+  console.log(answer);
+}
+ sequentialSize(1); */
+ //Puedes cambiar una condicional (if) por un switch.
+ 
