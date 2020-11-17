@@ -155,3 +155,47 @@ let holdbest = `Hold`;
     console.log(count + " " + holdbest);
 }
 cc(4); */
+//Objects = properties.
+/* let ourDog = {
+     name: "Camper",
+     legs: 4,
+     tails: 1, 
+     friends: ["Everything"],
+};
+let myDog = {
+   "name": "Alma",
+   "legs": 3,
+   "tails": 2,
+   "friends": []
+}; */
+//Accesing Object Properties with Dot Notation:
+//console.log(myDog);
+//console.log(`Your Dog: ${ourDog.name}`);
+/* let testObj = {
+    "eat": "Hamburger",
+    "my side": "veggies",
+    "the drink": "water",
+};
+let value = testObj["eat"];
+console.log(value); */
+
+//Updating Object Properties (propiedad del objeto).
+/* let ourDogs = {
+    name: "Bongo",
+    tails: 1,
+    legs: 4,
+    friends: ["Everything"],
+};
+console.log(ourDogs.name = "Happy Bongo"); */ //Agregamos un nuevo valor
+
+//Add new Properties to an Object:
+/* let ourDogs = {
+    name: "Bongo",
+    tails: 1,
+    legs: 4,
+    friends: ["Everything"],
+};
+ourDogs.bark = "New Properties";
+ourDogs[`barks`] = "Woof!";
+console.log(ourDogs); */
+//document.write(ourDogs.name);
