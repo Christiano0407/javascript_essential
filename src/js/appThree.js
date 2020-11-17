@@ -31,3 +31,24 @@ let num = 10;
 numeros(); */
 
 /* alert("Hola"); */
+//Golf Game :
+let golf = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"];
+
+golfScore = (par, strokes) => {
+   if(strokes === 1) {
+       console.log(golf[0]);
+   }else if(strokes <= par - 2) {
+      console.log(golf[1]);
+   }else if(strokes == par - 1) {
+      console.log(golf[2]);
+   }else if(strokes == par ) {
+    console.log(golf[3]);
+   }else if(strokes == par + 1) {
+    console.log(golf[4]);
+   }else if(strokes == par + 2) {
+    console.log(golf[5]);
+   }else {
+    console.log("Never and never game of Golf!")
+   }
+}
+golfScore();
