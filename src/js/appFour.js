@@ -82,4 +82,76 @@ console.log(myMusic[0]); */
 //console.log(`My trunk is: ${myStorage.car.outside["trunk"]}`);
 
 //3) Array: Acceder a matrices anidadas:
+/* let myPlants = [
+    {
+     type: "flowers",
+     list: [
+         "rose",
+         "tulipan",
+         "dandelion",
+     ]
+    },
+    {
+     type: "trees",
+     list: [
+         "fir",
+         "pino",
+         "birch",
+     ]
+    },
+    {
+     "navidad": {
+          "nochebuena":[
+              "Red",
+              "white",
+              "green",
+          ]
+     }
+    }
+];
+console.log(`My first flower is: ${myPlants[0].list[0]}`); */
 
+//4)
+/* let collection = {
+    "2548": {
+        "album": "Slippery",
+        "artist": "Bon Jovi",
+        "tracks": [
+            "Let it Rock",
+            "You Give Love",
+        ]
+    },
+    "2468":{
+        "album": "1999",
+        "artist": "Prince",
+        "tracks": [
+            "1999",
+            "Little Red",
+        ]
+    },
+    "1245": {
+        "artist": "Roberts Palmer",
+        "tracks": []
+    },
+    "5439": {
+        "album": "ABBA Gold"
+    }
+}; 
+
+let collectionCopy = JSON.parse(JSON.stringify(collection));
+
+function updateRecords(id, prop, value) {
+    if(value === "") {
+        delete collection[id][prop];
+    }else if (prop === "tracks") {
+        collection[id][prop] = collection[id][prop] || [];
+        collection[id][prop].push(value);
+    }else {
+       collection[id][prop] = value;
+    }
+
+    return collection;
+}
+updateRecords(2468, "tracks", "test");
+console.log(updateRecords(5439, "artist", "ABBA")); */
+//console.log(collectionCopy);
