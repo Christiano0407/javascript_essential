@@ -65,3 +65,21 @@ console.log(checkObj("Hello")); */
     },
 ];
 console.log(myMusic[0]); */
+
+//2) Objeto con otro Objeto (anidados):
+/* let myStorage = {
+    "car": {
+        "inside":{
+               "glove box": "maps",
+               "passenger seat": "crumbs"
+        }, 
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+}; */
+//console.log(myStorage.car.outside["trunk"]);
+//console.log(`My trunk is: ${myStorage.car.outside["trunk"]}`);
+
+//3) Array: Acceder a matrices anidadas:
+
