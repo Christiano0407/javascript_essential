@@ -190,3 +190,51 @@ for(let i = 0; i <= 10; i += 2){
     usArray.push(i);
 }
 console.log(usArray); */
+
+//bucle = cuenta hacia atrás :
+//a)
+/* let restApp = [];
+for(let i = 10; i >= 0; --i) {
+    restApp.push(i);
+}
+console.log(restApp);
+//b)
+let restVal = [];
+for (let i = 10; i >= 0; i -= 2) {
+    restVal.push(i);
+}
+console.log(restVal.length); */
+/* let taco = [];
+tacos = () => {
+  for (let i = 0; i <= 5; ++i){
+     if(i === 2) {
+        console.log("De al pastor");
+     }else if(i === 5){
+       console.log("para llevar de Bisteck");
+     }else {
+      console.log("Ya no hay tacos")
+     }
+  }
+ console.log(i);
+
+}
+tacos(taco); */
+
+//Iterar a través de una matriz(Array):
+/* let ourArray = [12, 11, 10, 9];
+let sumTotal = 0;
+
+for(let i = 0; i < ourArray.length; i++) {
+    sumTotal += ourArray[i];
+}
+console.log(sumTotal); */
+//
+/* let myArr = [2,3,4,5,6];
+let total = 0;
+
+for(let i = 0; i < myArr.length; i++) {
+    total += myArr[i];
+}
+console.log(total); */
+
+//Matriz Multidimensional y anidadas:
