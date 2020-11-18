@@ -181,3 +181,12 @@ for (let i = 0; i <= 8; i++) {
       myArray.push(i);
 }
 console.log(myArray.length) */
+
+//Iterate odd Numbers with a for Loop.
+//Incrementar cada 2 valores: "+=2".
+/* let usArray = [];
+
+for(let i = 0; i <= 10; i += 2){
+    usArray.push(i);
+}
+console.log(usArray); */
