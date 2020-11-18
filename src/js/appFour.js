@@ -155,3 +155,29 @@ function updateRecords(id, prop, value) {
 updateRecords(2468, "tracks", "test");
 console.log(updateRecords(5439, "artist", "ABBA")); */
 //console.log(collectionCopy);
+
+//Iterate with "While" Loops: Bucles - ejecutar el mismo código varias veces:
+/* let myArray = [];
+let i = 0;
+
+while (i <= 5) {
+    myArray.push(i);
+    i++;
+}
+console.log(myArray); */
+//Iterate with "for" Loops:
+//A)
+//let ourArray = [];
+//declaración / condición / expresión (iterar=incrementar).
+/* for (let i = 0; i <= 5; i++) {
+    ourArray.push(i);
+}
+console.log(ourArray); */
+
+//B)
+/* let myArray = [];
+
+for (let i = 0; i <= 8; i++) {
+      myArray.push(i);
+}
+console.log(myArray.length) */
