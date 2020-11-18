@@ -41,4 +41,27 @@ checkObj = (checkProp) => {
 };
 console.log(checkObj("Hello")); */
 
-//Manipulating Complex Object:
+//Manipulating Complex Object: Tipo JSON:
+/* let myMusic = [
+    {
+     "artist": "Billy Joel",
+     "title": "Piano Man",
+     "realese_year": 1973,
+     "formats": [
+         "CD",
+         "ST",
+         "LP",
+     ],
+     "gold":true      
+    },
+    {
+      "artist": "Beau Carnes",
+      "title": "Cereal Man",
+      "format": [
+          "Video",
+          "Social Media",
+          "Podcast",
+      ]
+    },
+];
+console.log(myMusic[0]); */
