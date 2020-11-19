@@ -79,3 +79,15 @@ console.log(randomFunction()); */
 //console.log(randomWhoNum());
 
 //Random whole numbers withing a Range:
+/* ourRandomRange= (ourMin, ourMax) => {
+
+  return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
+}
+console.log(ourRandomRange(1, 9));
+ */
+/* maxNumber = (ourMin, ourMax) => {
+  console.log(Math.floor(Math.random() * (ourMax - ourMin)) + ourMin)
+}
+maxNumber(5, 15); */
+
+//ParseInt Function:
