@@ -63,3 +63,19 @@ let data = lookProfile("Akira", "likes");
 console.log(data); */
 
 //random (números aleatorios):
+/* randomFunction = () => {
+  return Math.random();
+}
+console.log(randomFunction()); */
+//num aleatorio en lugar del decimal
+//floor = num entero más cercano.
+/* let randomNumber = Math.floor(Math.random() * 20); */
+
+/* randomWhoNum = () => {
+  return Math.floor(Math.random() * 10);
+  
+} */
+//console.log(randomNumber);
+//console.log(randomWhoNum());
+
+//Random whole numbers withing a Range:
