@@ -124,3 +124,22 @@ console.log(checkSing(10))  */// = "Positive".
 //console.log(checkSing(0));  = Valor "Zero".
 
 //DIFERENCE BETWEEN THE VAR AND LET KEYWORDS: 
+//const  = SIEMPRE EN MAYÚSCULAS.
+/* printMany = (str) => {
+  const SENTECE = str + " And Amazing";
+
+  for(let i = 0; i < str.length; i+=2) {
+    console.log(SENTECE);
+  }
+}
+printMany("FreeAwesome"); */
+
+//Remplazar la const:
+/* const S = [5,7,2];
+editConst = () => {
+S[0] = 4;
+S[1] = 8;
+S[2] = 3;
+} 
+editConst()
+console.log(S); */
