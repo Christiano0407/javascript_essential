@@ -143,3 +143,23 @@ S[2] = 3;
 } 
 editConst()
 console.log(S); */
+
+//Object Mutation: 
+//Método = Object.freeze()" => Congela un objeto, es decir impide que se le agreguen nuevas propiedades.
+//2=> Impide que se pueda modificar su prototipo. El método devuelva el objeto recibido.  
+/* freezeIbj = () => {
+  const MATH_CONSTANT = {
+    PI: 3.14
+  };
+  Object.freeze(MATH_CONSTANT);
+  try {
+    MATH_CONSTANT.PI = 99;
+  }catch(ex) {
+   console.log(ex);
+  }
+  return MATH_CONSTANT.PI;
+}
+const PI = freezeIbj();
+console.log(PI); */
+
+//ARROW FUNCTIONS:
