@@ -91,3 +91,36 @@ console.log(ourRandomRange(1, 9));
 maxNumber(5, 15); */
 
 //ParseInt Function:
+//Tima un "string" y devuelve un número entero
+
+/* convertToInteger = (str) => {
+  return parseInt(str);
+}
+console.log(convertToInteger("56")); */
+
+//Operador ternario (TERNARY OPERATORS) = tipo expresión "if-else":
+//condition ? statement-if-true : statement-if-false;
+/* checkEqual = (a, b) => {
+
+  return a === b ? true : false;
+
+  return a === b;
+}
+console.log(checkEqual(1, 2)); */
+//Otra forma:
+/* checkEqual = (a, b) => {
+    if(a === b) {
+    console.log(true);
+  }else {
+    console.log(false);
+  } 
+}
+checkEqual(1, 2);  */
+//Anidar operadores ternario:
+/* checkSing = (num) => {
+return num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+}
+console.log(checkSing(10))  */// = "Positive".
+//console.log(checkSing(0));  = Valor "Zero".
+
+//DIFERENCE BETWEEN THE VAR AND LET KEYWORDS: 
