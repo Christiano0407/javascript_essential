@@ -82,4 +82,34 @@ function getTempOfTomorrow(avgTemperatures) {
 console.log(getTempOfTomorrow(AVG_TEMPERATURES)); */
 
 //NESTED OBJECT : asignar variables de objetos anidados.
+/* const LOCAL_FOREST = {
+    today: {min: 72, max: 83},
+    tomorrow : {min: 80, max: 84.6}
+};
+getMaxOfTmrw = (forecast) => {
+  const {tomorrow: {max: maxValue}} = forecast;
+  return maxValue;
+}
+console.log(getMaxOfTmrw(LOCAL_FOREST)); */
 
+//USE DESTRUCTURING ASSIGNMENT TO ASSING VARIABLE FROM ARRAY:
+//aSIGNACIÓN DE ESTRUCTURACIÓN PARA ASIGNAR VARIABLES DE ARREGLOS
+
+//1)
+/* const [z,x,y] = [1,2,3,4,5,6];
+if(z === 1 && x === 2) {
+    console.log("Z es igual a 1, y x es 2");
+}else {
+    console.log("Nada!");
+}
+console.log(z,x,y); */
+
+//REST OPERATORS:
+/* const SOURCE = [1,2,3,4,5,6,7,8,9,10];
+removeFirst = (list) => {
+    const [, , ...arr ] = list;
+    return arr;
+}
+const arr = removeFirst(SOURCE);
+console.log(arr);
+console.log(SOURCE.length); */
