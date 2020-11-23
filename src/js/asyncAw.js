@@ -28,3 +28,28 @@ nombres(); */
   console.log(`Hola yo soy ${a}, y soy de ${b}`);
 }
 anonima(); */
+/* const a = [1,2,3,4,5];
+const b = ["Luisa", "Natasha", "Mariam"];
+const c = [];
+const d = [{name: "Alma"}, "New York", "CDMX"];
+
+console.log(a.length);
+console.log(a[0]);
+console.log(b[1]);
+console.log(c);
+console.log(d);
+console.log(d[0]); */
+//MÉTODO ".of".
+//.push()/pop()
+/* const e = Array.of("a", "b", "c", 5, 8);
+console.log(e);
+console.log(e[4]); */
+/* const f = new Array(5,6,7,8);
+console.log(f); */
+
+//MÉTODO:
+//forEach()
+/* const color = ["Azul", "Verde", "Rojo"];
+color.forEach((el) => {
+    console.log(`${el}`);
+}); */
