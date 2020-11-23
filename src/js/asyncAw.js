@@ -77,3 +77,8 @@ console.log(chris.pelicula.avenger);
 console.log( `Yo soy el ${chris.personaje[0]}`);
 //Método:
 chris.saludar(); */
+/* const jon = {
+  name: "Johny",
+  apellido: "Bravo",
+}
+console.log(`Hola, yo soy ${jon.name}, ${jon.apellido}`); */
