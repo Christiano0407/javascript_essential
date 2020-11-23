@@ -50,6 +50,30 @@ console.log(f); */
 //MÉTODO:
 //forEach()
 /* const color = ["Azul", "Verde", "Rojo"];
-color.forEach((el) => {
-    console.log(`${el}`);
+color.forEach((el, index) => {
+    console.log(`<li>id="${index}" ${el}</li>`);
 }); */
+
+//Objects:
+//const b = {name:"Bruno", age: 20};
+//const c = new Object("Alma");
+//console.log(b);
+//console.log(c);
+
+/* const chris = {
+  name: "Chris",
+  apellido: "Evans",
+  edad: 35,
+  personaje: ["Capitán América", "Antorcha Humana"],
+  soltero: true,
+  pelicula: {avenger: "End Game", capitan: "Soldado Invierno"},
+  saludar: function(){
+    console.log("Saludo, desde Marvel Studios");
+  }
+}
+//Propiedades:
+console.log(chris);
+console.log(chris.pelicula.avenger);
+console.log( `Yo soy el ${chris.personaje[0]}`);
+//Método:
+chris.saludar(); */
