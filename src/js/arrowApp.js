@@ -113,3 +113,26 @@ removeFirst = (list) => {
 const arr = removeFirst(SOURCE);
 console.log(arr);
 console.log(SOURCE.length); */
+
+//USE Destructuring Assignment to Pass an Object as a Function´s Parameters.
+//Ayuda  API (Solicitar información):
+
+/* const data = {
+    max: 56.78, 
+    standard_deviation: 4.34,
+    median: 34.54,
+    mode: 23.87,
+    min: -0.75,
+    average: 35.85,
+};
+
+const half = (function(){
+    return function half({max, min, median}) {
+        return(max + min + median);
+    };
+
+})();
+console.log(data);
+console.log(half(data)); */
+
+
