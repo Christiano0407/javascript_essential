@@ -120,3 +120,47 @@ while(contador <= 12){
   console.log(contador);
   contador++;
 } */
+//
+//DO WHILE
+/* let num = 1;
+do {
+ console.log(num);
+ num++;
+}while(num <= 10); */
+//
+//FOR(Declaración/Condicional/Iteración o incremento e decremento):
+/* const numeros = [10,20,30,40,50,60,70,80,90];
+for(let i = 0; i < numeros.length; i++) {
+  if(numeros[i] === 50 || numeros[i] === 80) {
+    console.log("Es la mitad");
+  }else if(numeros[i] === 90) {
+    console.log("Faltan diez");
+  }else {
+    console.log("Vamos a pagar cada uno, diez");
+  }
+  console.log(numeros[i]);
+} */
+//
+//For in:Recorrer e iterar propiedades de un arreglo or object.
+/* const person = {
+  name: "Luisa",
+  apellido: "Vazquez",
+  edad: 25,
+}
+for(const propiedad in person) {
+   console.log(`Key: ${propiedad}, value: ${person[propiedad]}`);
+} */
+/* const mujer = {
+  name: "Kader",
+  apellido: "Velázquez",
+  edad: 25,
+}
+for(const data in mujer) {
+  console.log(`${data} ${mujer[data]}`);
+} */
+//For of = Recorrer todos los elementos de cualquier objetos o Array(más) / iterar.
+/* const number = [10,20,30,40,50];
+for(const data of number) {
+  console.log(data);
+} */
+
