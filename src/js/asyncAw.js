@@ -82,3 +82,41 @@ chris.saludar(); */
   apellido: "Bravo",
 }
 console.log(`Hola, yo soy ${jon.name}, ${jon.apellido}`); */
+//
+// !-Not = Niega / ||-Or = O con que se cumpla una condicional / &&- Cumplan las dos condicionales.
+/* let pay = 5;
+if(pay === 5 && pay <= 5) {
+  console.log("Pagamos muy poco");
+}else {
+  console.log("Es mucho...?");
+}
+let pasteles = 2;
+if(pasteles === 2 || pasteles == true) {
+  console.log("Son de chocolate");
+}else {
+  console.log("No lo son");
+} */
+//
+//CONDICIONALES Y CICLOS:
+/* let a = 5;
+for(i = 0; i <= a; i++) {
+  console.log(i);
+} */
+//While (Mientras):
+/* let count = 0;
+
+while(count <= 10) {
+  console.log(count);
+  count++;
+} */
+/* let contador = 2;
+
+while(contador <= 12){
+   if(contador === 10) {
+     console.log("Siempre ganando");
+   }else {
+     console.log("No impotan");
+   }
+  console.log(contador);
+  contador++;
+} */
