@@ -14,12 +14,25 @@ html {
     --color-gradient-two: #283153;
 }
 body {
-    font-size: 1.6rem;
+    font-size: 2rem;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Open Sans', sans-serif;
-    background: var(--color-gradient-two);
-    color: var(--color-base-2);
+    color: #fff;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f49;
+   text-shadow: 1px 1px rgba(167, 110, 110, 0.5);
 }
 a {
     text-decoration: none;
+}
+p {
+    color: var(--color-gradient-uno);
+    background: #fdb2f4;
+    border-radius: 20px;
+    border: 2px solid #f2f5ff;
+    padding: .15em .4em;
 }
