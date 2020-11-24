@@ -163,4 +163,23 @@ for(const data in mujer) {
 for(const data of number) {
   console.log(data);
 } */
-
+//
+//Try and Catch.
+/* try {
+(El código a evaluar)
+}catch(error){
+(errores en el try o surgidos del try)
+}finally{
+(se ejecutará siempre al final de un bloque try-catch)
+} */
+//
+//throw = Marca una excepción.
+try {
+  let numero = "Chris";
+  if(isNaN(numero)) {
+  throw new Error("No es un número")
+  }
+  console.log(numero * numero);
+}catch(error){
+  console.log(`Tenemos un error ${error}`);
+}
