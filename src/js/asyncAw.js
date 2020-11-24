@@ -174,7 +174,7 @@ for(const data of number) {
 } */
 //
 //throw = Marca una excepción.
-try {
+/* try {
   let numero = "Chris";
   if(isNaN(numero)) {
   throw new Error("No es un número")
@@ -182,4 +182,17 @@ try {
   console.log(numero * numero);
 }catch(error){
   console.log(`Tenemos un error ${error}`);
-}
+} */
+
+//Break and Continues: Sólo en estructuras de control. Tipo (Switch).
+/* const number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+
+for(i = 0; i <= number.length; i++){
+  if(i === 5){
+    continue;
+  }
+
+  console.log(number[i]);
+} */
+//
+
