@@ -61,3 +61,64 @@ console.log(arr3); */
 /* const number = [1,2,3,4,5,6];
 
 number.forEach((el,index) => console.log(`${el} está en ${index}`) ); */
+
+//PROTOTYPE:
+//POO (Programación Orientada a Objetos).
+//POO = Clases, Objetos,Atributos, Métodso.
+/* Atributo: Característica o propiedad del objeto (variables dentro del objeto
+    Método: Acciones, son funciones dentro de un objeto*/
+//OBJETOS = lowerCamelCase:
+
+/* const animation = {
+    nombre: "Lola Bunny",
+    sonar(){
+        console.log("Sing");
+    }
+}
+console.log(animation); */
+
+//class: Usar = UpperCamelCase: Inician con mayúsculas.
+/* class SerHumano {
+  constructor(nombre, genero) {
+      this.name = nombre;
+      this.genero = genero;
+  }
+  miNombre() {
+      return `Mi nombre es: ${this.nombre}`
+  }
+} */
+//Función Constructora:
+/* function Animation(nombre, genero) {
+    //Atributos
+ this.nombre = nombre;
+ this.genero = genero;
+   //Método
+ this.move = function() {
+     console.log("Tengo un movimiento");
+ }
+} */
+/* const snoopy = new Animation("Snoopy", "Masculino"),
+      lolaBunny = new Animation("Lola Bunny", "Femenino");
+console.log(snoopy);
+console.log(lolaBunny);
+snoopy.move(); */
+
+//2)
+/* function Animation(nombre, genero) {
+    //Atributos
+ this.nombre = nombre;
+ this.genero = genero;
+}
+//Método agregado al prototipo:
+Animation.prototype.move = function() {
+    console.log("Tengo un movimiento");
+}
+
+const snoopy = new Animation("Snoopy", "Masculino"),
+      lolaBunny = new Animation("Lola Bunny", "Femenino");
+console.log(snoopy);
+console.log(lolaBunny);
+snoopy.move(); */
+
+//Herencia Prototipal
+
