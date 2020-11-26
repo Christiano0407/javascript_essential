@@ -201,3 +201,11 @@ console.log(puppy);
 console.log(puppys);
 puppy.sonar(); 
 puppys.sonar() */
+
+//Métodos estáticos / getters and setters
+//estático: Se pueden ejecutar sin necesidad de instanciar la clase. 
+
+/* static queEres() {
+    console.log("Soy unAnimal");
+}
+Animal.queEres(); //=> Estática */
