@@ -121,7 +121,7 @@ console.log(lolaBunny);
 snoopy.move(); */
 
 //Herencia Prototipal
-function Person(nombre, apellido) {
+/* function Person(nombre, apellido) {
     this.nombre = nombre;
     this.apellido = apellido;
 }
@@ -156,4 +156,6 @@ console.log(friends);
 human.saludar();
 humans.saludar();
 friends.saludar();
-friends.abrazar();
+friends.abrazar(); */
+
+//CLASES Y HERENCIA:
