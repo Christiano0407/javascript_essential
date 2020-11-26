@@ -121,4 +121,39 @@ console.log(lolaBunny);
 snoopy.move(); */
 
 //Herencia Prototipal
+function Person(nombre, apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+}
+Person.prototype.saludar = function() {
+    console.log(`Hola, yo soy ${this.nombre}, y me apellido ${this.apellido}`);
+}
 
+function Friend(nombre, apellido, pais){
+  this.persons = Person;
+  this.persons(nombre,apellido);
+  this.pais = pais;
+}
+//Heredando de Person (arriba).
+Friend.prototype = new Person();
+Friend.prototype.constructor = Friend;
+
+//sobrecribir un método:
+Friend.prototype.saludar = function() {
+    console.log("Yo soy su amigo.");
+}
+//New Método (de los que ya existe):
+Friend.prototype.abrazar = function() {
+    console.log( `Yo siempre te voy a abrazar ${this.nombre}`);
+}
+
+const human = new Person("Luisa", "Rosas");
+      humans = new Person("Mauricio", "Chávez");
+const friends = new Friend("Chris", "Evas", "E.U.A");
+console.log(human);
+console.log(humans);
+console.log(friends);
+human.saludar();
+humans.saludar();
+friends.saludar();
+friends.abrazar();
