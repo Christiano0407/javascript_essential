@@ -158,4 +158,46 @@ humans.saludar();
 friends.saludar();
 friends.abrazar(); */
 
-//CLASES Y HERENCIA:
+//CLASES Y HERENCIA: aZÚCAR SINTÁCTICA / Mejor prototipos....
+/* class Animal {
+    constructor(nombre, raza){
+        this.nombre = nombre;
+        this.raza = raza;
+    }
+
+    sonar() {
+        console.log(`Se llama ${this.nombre}, y es ${this.raza}`);
+    }
+}
+const puppy = new Animal("Puppy", "Golden");
+console.log(puppy);
+puppy.sonar(); */
+
+//Heredar Clases:
+/* class Animal {
+    constructor(nombre, raza){
+        this.nombre = nombre;
+        this.raza = raza;
+    }
+
+    sonar() {
+        console.log(`Se llama ${this.nombre}, y es ${this.raza}`);
+    }
+}
+class Perro extends Animal{
+    constructor(nombre,raza,genero) {
+      //super() = método manda llamar el constructor de la clase padre.
+      super(nombre, raza);
+      this.genero = genero;
+    }
+    sonar() {
+        console.log(`Es una ${this.genero}`);
+    }
+}
+
+const puppy = new Animal("Puppy", "Golden");
+const puppys = new Perro("Betwoven", "Grande", "Hembra");
+console.log(puppy);
+console.log(puppys);
+puppy.sonar(); 
+puppys.sonar() */
