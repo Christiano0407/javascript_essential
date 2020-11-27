@@ -45,4 +45,29 @@ console.log(Math.random());
 console.log(Math.round(Math.random() * 10)); */
 
 //
-/* Operador de Cortocircuito */
+/* alert(alerta), confirm(confirmar), prompt(ingresar datos) */
+//console.log(window);
+//window.alert("This is alert!");
+//window.confirm("Confirma la compra");
+//confirm("Confirma");
+//prompt("Cuál es tu nombre?");
+
+/* let confirma = confirm("Hola, confirma tu asistencia al evento.");
+let ingresa = prompt("Ingresa tu nombre");
+
+if(confirma === true) {
+    console.log("Permítele el acceso al evento VIP");
+}else {
+    console.log("Está vetado");
+}
+
+if(ingresa === "Chris") {
+    console.log("Sí, él confirmo su asistencia");
+}else {
+    console.log("Lo sentimos mucho");
+}
+console.log(confirma);
+console.log(ingresa); */
+
+//
+/* EXPRESIONES REGULARES */
