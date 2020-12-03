@@ -71,3 +71,14 @@ console.log(ingresa); */
 
 //
 /* EXPRESIONES REGULARES */
+//Funciones Anónimas y Autoejecutables:
+
+//Se ponde entre paréntesis para que tenga una referencia en memoria.
+/* (function() {
+    console.log("Hola");
+})();
+(function(a,b){
+  console.log(`Hola, yo soy ${a}`);
+})("Luisa", "Velázquez") */
+
+/* MODULOS IMPORT / EXPORT */
