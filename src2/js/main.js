@@ -41,3 +41,19 @@ if(cadena === ""){
 }
 }
 character("Hola Luisa");  */
+//2)
+/* const recortar = (cadena="", longitud=undefined) => 
+(cadena === "")
+   ? console.log("No tienes texto")
+   : console.log(cadena.slice(0, longitud));
+   recortar("Chris Anderson", 5);
+
+const tijera = ""; 
+function recorte (cadena="", longitud=undefined) {
+  if(cadena === ""){
+      console.log("No hay texto");
+  }else {
+      console.log(cadena.slice(0, longitud));
+  }
+}
+recortar("Hola Mundo", 4); */
