@@ -57,3 +57,24 @@ function recorte (cadena="", longitud=undefined) {
   }
 }
 recortar("Hola Mundo", 4); */
+//3)
+/* const cadenaAAray = (cadena="", separador = undefined) => 
+//(!cadena)
+(cadena === "")
+  ?console.warn("No ingresaste ningún dato")
+  :(separador === undefined)
+    ?console.warn("No ingresaste el caracter separador")
+    :console.info(cadena.split(separador));
+
+cadenaAAray("Chris tiene un hermoso perro llamado ángel; tiene un tamaño pequeño", " "); */
+
+/* const FRIEND = ["Alma", "Luisa", "Mauricio", "Obi Wan", "Natasha", "Aníbal"]; 
+const friendsYears = (names = FRIEND, distance = undefined) => 
+(names === FRIEND)
+  ?console.info("Tienes amigos")
+  :(distance === undefined)
+     ?console.warn("Otra vez, recuerda agregar a tus amigos")
+     :console.info(distance.split(names));
+
+friendsYears(console.log(FRIEND, " "));
+console.log(`Ella es la amiga de la familia:`,FRIEND[1]); */
