@@ -120,3 +120,57 @@ repetirTexto("Saludo", -1); */
   }
 }
 oaracionNueva("Mi nombre es usuario", 3); */
+
+//5)Programar una función que invierta las palabras de una cadena de texto.
+//6)Programa una función para contar el número de veces que se repite una palabra en un texto largo.
+//7)Programa una función que valide si una palabra o frase dada, es igual a un palídromo (se lee igual en un sentido que es otro).
+//8)Programa una función que elimine cierto patrón de caracteres de un texto dado. 
+
+//5)
+//Prototype join() - Une todos los elementos de una matriz(un objeto o matriz)en una cadena, y devúelve una cadena. 
+/* const invertirCadena = (cadena= "") => {
+   (cadena === "")
+    ?console.warn("No ingresaste ningún dato")
+    :console.info(cadena.split("").reverse().join(""));
+}
+invertirCadena();
+invertirCadena("Hola Mundo"); */
+
+/* const elements = ["Fire", "Air", "Water"];
+
+element = () => {
+    if(elements[0] === "Fire"){
+        console.log("Está que arde")
+    }else {
+        console.log("Nada")
+    }
+}
+element();
+console.log(elements.join());
+console.log(elements.join(" ")); */
+
+//6)
+/* const textoCadena = (cadena="",texto="") => {
+ if(cadena === ""){
+     console.warn("No ingresaste tus datos...")
+ }else if(texto=== "" ){
+     console.warn("No ingresaste ningún texto...")
+ }else {
+     console.log("Salte por favor")
+ }
+
+ let i = 0;
+  contador = 0;
+ while(i !== -1){
+     i = cadena.indexOf(texto, i);
+     if(i !== -1){
+         i++;
+         contador++;
+     }
+ }
+ console.log(`La palabra ${texto}, se repite ${contador} veces`);
+}
+textoCadena();
+textoCadena("","mundo");
+textoCadena("Hola mundo, nos vemos mundo"); */
+
