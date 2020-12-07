@@ -188,4 +188,34 @@ palindromo();
 palindromo("Hola Mundo");
 palindromo("Salas"); */
 
+//Elimina patrones de caracteres de un texto:
+//RegExp(Es un objeto que se utiliza para hacer coincidir texto con patrón)//expresión regular.
+//i = No distingue entre minúsculas y mayúsculas / g = No se detiene en el primer patrón.
+/* const characterExt = (texto="", patron="") => {
+  (!texto)
+   ?console.warn("No ingresaste ningún texto")
+   :(!patron)
+    ?console.warn("No ingresaste ningún patrón de caracter")
+    :console.info(texto.replace(new RegExp(patron, "ig"),""));
+}
+characterExt();
+characterExt("xyz1,xyz2,xyz3,xyz4,xyz5");
+characterExt("xyz1,xyz2,xyz3,xyz4,xyz5","xyz"); */
+
+/* const elimiNated = (text="", patern="") => {
+    if(text === ""){
+        console.warn("No ingresaste un texto");
+    }
+    if(patern === ""){
+        console.warn("Ingresa tu patrón de texto");
+    }else if(patern !== patern) {
+        console.warn("No coincide tu patrón...");
+    } else {
+        console.info(text.replace(new RegExp(patern, "ig"),""));
+    }
+}
+elimiNated();
+elimiNated("xyz1,xyz2,xyz3,xyz4,xyz5");
+elimiNated("xyz1,xyz2,xyz3,xyz4,xyz5", "xyz"); */
+
 //
