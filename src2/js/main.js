@@ -174,3 +174,18 @@ textoCadena();
 textoCadena("","mundo");
 textoCadena("Hola mundo, nos vemos mundo"); */
 
+// Palíndromo:
+/* const palindromo = (palabra = "") => {
+ if(!palabra)
+     return console.warn("No ingresaste ninguna palabra en el computador");
+ palabra = palabra.toLowerCase();
+ let alReves = palabra.split("").reverse().join("");
+ return(palabra === alReves)
+     ?console.info(`Sí, es un palíndromo. Palabra original ${palabra}; palabra al reves ${alReves}`)
+     :console.info(`No es un palíndromo ${palabra}; palbra al reves ${alReves}`);
+}
+palindromo();
+palindromo("Hola Mundo");
+palindromo("Salas"); */
+
+//
