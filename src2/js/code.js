@@ -59,4 +59,28 @@ twoCall(5,(valor) => {
     console.log(`Es el valor ${valor}`);
 }) */
 
+/* function saludar (nombre){
+    console.log(`Hola`, nombre)
+}
+function entradaPro(callback){
+    let nombre = prompt(`Por favor de ingresar el nombre`);
+    callback(nombre);
+}
+entradaPro(saludar);  */
+/* let name = "Chris";
+//let name2 = "Luisa"; 
+entrada = (saludo) => {
+    console.log(`Hola mi querido ${name}`, saludo );
+}
 
+proEntradas= (callback) => {
+    let saludo = prompt(`Ingresa tú saludo`);
+    callback(saludo); 
+    proEntradass= (callback) => {
+        let saludo = prompt(`Ingresa otro saludo`);
+        callback(saludo); 
+        
+    }
+}
+proEntradas(entrada);
+proEntradass(entrada); */
