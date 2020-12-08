@@ -127,6 +127,23 @@ Promise.all([p1, p2, p3]).then(values => {
  //
  /* RESOLVE() */
 
+/* resolver = (value) => {
+     return new Promise ((resolve, reject) => {
+         resolve(value);
+     })
+ }
+ resolver(578)
+ .then((value) => console.log(value))
+ .catch(err => console.error(err)); 
 
+let promesas = Promise.resolve(123);
+promesas.then((value) => {console.log(value)})
 
+Promise.resolve("Mucho!")
+.then(function(value) {console.log(value)}); */
 
+/* //array
+let p = Promise.resolve([1,2,3]);
+p.then(function(value) {
+    console.log(value[1]); 
+}) */
