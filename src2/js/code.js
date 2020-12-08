@@ -31,7 +31,7 @@ clearTimeout(temporizador); */
 //Operaciones Síncronas y Asíncronas.+
 
 /* Callbacks */
-/* function oneCall(value, callback){
+/*  function oneCall(value, callback){
     setTimeout(() => {
     callback(value, value * value)
     }, 0 | Math.random() * 100);
@@ -48,6 +48,15 @@ oneCall(1,(value, result) => {
             console.log(`callback ${value}, ${result}`);
         });
     });
-}); */
+});  */
+
+/* function twoCall(valor, callback){
+    setTimeout(() => {
+     callback(valor)
+    }, 1000);
+}
+twoCall(5,(valor) => {
+    console.log(`Es el valor ${valor}`);
+}) */
 
 
