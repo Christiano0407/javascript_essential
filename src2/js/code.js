@@ -30,6 +30,24 @@ clearTimeout(temporizador); */
 //Operaciones bloqueantes y No bloqueantes.
 //Operaciones Síncronas y Asíncronas.+
 
-//Operaciones Síncronas Bloqueantes
+/* Callbacks */
+/* function oneCall(value, callback){
+    setTimeout(() => {
+    callback(value, value * value)
+    }, 0 | Math.random() * 100);
+}
+
+oneCall(1,(value, result) => {
+    console.log("Inicio de Callback");
+    console.log(`callback ${value}, ${result}`);
+    oneCall(2,(value, result) => {
+        console.log("Inicio de Callback");
+        console.log(`callback ${value}, ${result}`);
+        oneCall(3,(value, result) => {
+            console.log("Inicio de Callback");
+            console.log(`callback ${value}, ${result}`);
+        });
+    });
+}); */
 
 
