@@ -84,3 +84,4 @@ proEntradas= (callback) => {
 }
 proEntradas(entrada);
 proEntradass(entrada); */
+
