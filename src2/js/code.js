@@ -147,3 +147,40 @@ let p = Promise.resolve([1,2,3]);
 p.then(function(value) {
     console.log(value[1]); 
 }) */
+
+/* //ASYNC EJEMPLO:
+function cuadradoPromise(value){
+    if(typeof value !== "number"){
+        return Promise.reject(`Error, el valor ${value} ingresado no es un número `)
+    }
+
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+        resolve({
+            value,
+            result: value*value
+        })
+        }, 0 | Math.random()*1000)
+    });
+}
+
+//ASYNC AND AWAIT(ESPERA):
+
+async function sincronia() {
+    console.log("iNICIO")
+
+let   obj = await cuadradoPromise(2);
+    console.log(`Async ${obj.value}, ${obj.result}`)
+
+ obj = await cuadradoPromise(4);
+console.log(`Async ${obj.value}, ${obj.result}`);
+
+ obj = await cuadradoPromise(6);
+console.log(`Async ${obj.value}, ${obj.result}`)
+
+obj = await cuadradoPromise(8);
+console.log(`Async ${obj.value}, ${obj.result}`)
+
+   console.log("FIN");
+}
+sincronia(); */
