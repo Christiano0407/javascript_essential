@@ -184,3 +184,57 @@ console.log(`Async ${obj.value}, ${obj.result}`)
    console.log("FIN");
 }
 sincronia(); */
+
+//two:
+/* function resolveAfter (){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(`Yey! You resolve`)
+        }, 2000);
+    });
+}
+
+async function callAfter() {
+    console.log(`Call!`);
+    const result = await resolveAfter();
+    console.log(result);
+    console.log(`Finished`); 
+}
+callAfter(); */
+//Three: 
+
+ resolveOne = () => {
+    return new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(`Perfect`)
+    }, 2000);
+    });
+}
+async function callOne(){
+ console.info(`Ya haz ingresado tú información`);
+ const results = await resolveOne(); 
+ console.log(results)
+ console.log(`Finished the call!`);
+}
+
+callOne();
+
+//Three
+resultOne = (value) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+         resolve(value)
+         reject(`Ingresaste un valor incorrecto`)
+        }, 4000)
+    })
+}
+
+async function add(value) {
+    console.info(`Preparando el argumento`)
+    const response = await resultOne(value);
+    console.log(response);
+
+}
+resultOne(20)
+.then((value) => console.log(value))
+add(10);
