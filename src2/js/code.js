@@ -220,21 +220,21 @@ async function callOne(){
 callOne();
 
 //Three
-resultOne = (value) => {
+resultOne = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-         resolve(value)
+         resolve(`Valor ingresado`)
          reject(`Ingresaste un valor incorrecto`)
         }, 4000)
     })
 }
 
-async function add(value) {
+async function add() {
     console.info(`Preparando el argumento`)
-    const response = await resultOne(value);
+    const response = await resultOne();
     console.log(response);
 
 }
-resultOne(20)
-.then((value) => console.log(value))
-add(10);
+/* resultOne(20)
+.then((value) => console.log(value)) */
+add();
