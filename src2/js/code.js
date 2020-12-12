@@ -203,7 +203,7 @@ async function callAfter() {
 callAfter(); */
 //Three: 
 
- resolveOne = () => {
+/*  resolveOne = () => {
     return new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve(`Perfect`)
@@ -217,10 +217,10 @@ async function callOne(){
  console.log(`Finished the call!`);
 }
 
-callOne();
+callOne(); */
 
 //Three
-resultOne = () => {
+/* resultOne = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
          resolve(`Valor ingresado`)
@@ -234,7 +234,34 @@ async function add() {
     const response = await resultOne();
     console.log(response);
 
-}
+} */
 /* resultOne(20)
 .then((value) => console.log(value)) */
-add();
+//add();
+
+//Four:
+function resolvePro(value){
+  if(typeof value !== "number"){
+   return Promise.reject(`Error, el valor ${value} no es aceptado...vuelve a ingresar tú valor.`)
+  }
+
+  return new Promise((resolve, reject) => {
+  setTimeout(() => {
+      resolve({
+          value,
+          result: value * value
+      })
+  },1000 | Math.random()*1000)
+  })
+}
+ async function asincronia(){
+     console.info(`Play`)
+     let obj = await resolvePro(4)
+     console.log(`Value async ${obj.value}, ${obj.result}`);
+     obj = await resolvePro(5)
+     console.log(`Value ${obj.value}, ${obj.result}`);
+     obj = await resolvePro(8)
+     console.log(`Value is: ${obj.result}`);
+     obj = await resolvePro(`Valor`)
+ }
+ asincronia();
