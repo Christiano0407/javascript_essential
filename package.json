@@ -4,7 +4,7 @@
   "description": "Course with Platzi of Javascript",
   "main": "index.js",
   "scripts": {
-    "index": "node src/js/index.js"
+    "async": "node src2/js/asyncApp.js"
   },
   "repository": {
     "type": "git",
