@@ -15,3 +15,21 @@ const somethingTwo = async () => {
 console.log(`BEFORE`);
 somethingTwo();
 console.log(`AFTER`);
+
+//Two)
+const OneAsync = () => {
+    return new Promise((resolve, reject) => {
+    (true)
+    ? setTimeout(() => resolve(`Yes`),3000)
+    : reject(new Error(`You error`))
+    });
+}
+
+const twoAsync = async () => {
+    const problem =  await OneAsync();
+    console.log(problem);
+}
+
+console.log(`OneValue`);
+twoAsync();
+console.log(`TwoValue`);
