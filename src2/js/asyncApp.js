@@ -54,3 +54,38 @@ const fourAsync = async () => {
 }
 console.log(`OneERROR`);
 fourAsync(); */
+
+/* simbols */
+//Identificar las propiedades de objeto.
+//Se mantienen privados.
+
+/* let id = Symbol("id");
+let id2 = Symbol("id2"); */
+//console.log(id === id2);
+//console.log(id,id2);
+//console.log(typeof id, typeof id2);
+
+/* const NAME = Symbol();
+const FIRSTNAME = Symbol();
+const person = {
+    [NAME]:"Chris",
+    [FIRSTNAME]: "Velázquez"
+}
+console.log(person); */
+
+/* SETS */
+//Arreglo mejorado en js; sólo acepta valores únicos. 
+//OBJECT
+/* const set = new Set([1,2,3,4,5,6,7,8,9]);
+console.log(set);
+//ARRAY
+let arr = Array.from(set);
+console.log(arr);
+
+//MÉTODO (HAS = ayuda a comprobar)/ validar un dato. 
+console.log(set.has(1)); */
+
+/* const set2 = new Set();
+set2.add(11);
+set2.add(12);
+console.log(set2); */
