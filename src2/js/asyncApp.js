@@ -89,3 +89,18 @@ console.log(set.has(1)); */
 set2.add(11);
 set2.add(12);
 console.log(set2); */
+
+/* MAP */
+/* let mapa = new Map();
+mapa.set([1,2,3,4,5]);
+mapa.set("name","Shantal");
+
+let regla = Array.from(mapa);
+
+console.log(mapa);
+console.log(mapa.size); */
+//
+/* let mapas = new Map();
+mapas.set("hola","name");
+
+console.log(mapas); */
